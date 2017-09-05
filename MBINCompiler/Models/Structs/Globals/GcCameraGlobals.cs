@@ -1,8 +1,4 @@
-﻿// generated output for subroutine:
-// char *__fastcall GcCameraGlobals_LoadDefaults(__int64 a1) -----> hash: 9F9579A4
-// hash of whole input: AF9F542F
-
-namespace MBINCompiler.Models.Structs
+﻿namespace MBINCompiler.Models.Structs
 {
     public class GcCameraGlobals : NMSTemplate
     {
@@ -128,7 +124,7 @@ namespace MBINCompiler.Models.Structs
         public GcCameraShakeData Unknown15A0;
         public GcCameraShakeData Unknown1660;
 
-        public float Unknown1720;
+        /* 0x1720 */ public float Unknown1720;
         /* 0X1724 */ public float Unknown1724;
         /* 0X1728 */ public float Unknown1728;
         /* 0X172C */ public float Unknown172C;
@@ -202,6 +198,7 @@ namespace MBINCompiler.Models.Structs
         public float Unknown1CD0;
         public float Unknown1CD4;
         [NMS(Size = 0x8, Ignore = true)]
-        public byte[] EndPadding;
+        public byte[] Padding1CD8;
+        /* 0x1CE0 */ public TkModelRendererData Unknown1CE0;
     }
 }

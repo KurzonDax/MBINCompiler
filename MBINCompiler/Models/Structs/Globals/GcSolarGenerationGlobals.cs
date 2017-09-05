@@ -101,12 +101,12 @@
         /* 0x170 */ public float Unknown170;
         /* 0x174 */ public float Unknown174;
         /* 0x178 */ public float Unknown178;
-        /* 0x17C */ public int UnknownInt17C;
+        /* 0x17C */ public int ShipVariationsPerSystem;
         /* 0x180 */ public float Unknown180;
         /* 0x184 */ public float Unknown184;
         /* 0x188 */ public float Unknown188;
 
-        [NMS(Size = 0x7, EnumValue = new string[0x7] { "Standard", "Freighter", "CapitalFreighter", "SmallFreighter", "TinyFreighter", "Unknown1", "Unknown2" })]
+        [NMS(Size = 0x7)]
         /* 0x18C */ public GcAISpaceshipWeightingData[] Unknown18C;
     }
 }
